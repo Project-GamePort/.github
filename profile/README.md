@@ -2,8 +2,12 @@
 
 ![Alt text](/pic.jpeg "Optional title")
 
-
 GamePort is an online multiplayer gaming system for the web. A horizontally scalable system, that allows the vinculation of one or more game-servers to a core backend. 
+
+## Architecture Overview
+
+![](./architecture.png )
+<br>
 
 The core backend handles basic business logic such as managing sessions, users, game-rooms, and monitoring game hosts. Through it's API, users can register and login. Additionally, it communicates with game hosts, allowing logged-in players to select and join an available game-room. An instance of the core backend is called a "central-server". Multiple central-servers can constitute a escalable monolith, allowing load-balancing using NGINX as proxy.
 
