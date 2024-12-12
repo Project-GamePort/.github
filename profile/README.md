@@ -1,4 +1,4 @@
-# We Are Project 🎮 Gameport ⚓
+# We Are Project 🎮 GamePort ⚓
 
 GamePort is an online multiplayer gaming system for the web. A horizontally scalable system, that allows the vinculation of one or more game-servers to a core backend. 
 
